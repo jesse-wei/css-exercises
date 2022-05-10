@@ -16,4 +16,10 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition: transform .3s ease-in-out;
+  /* had to look at the solution for this one, kinda cool tho */
+}
+
+button:hover {
+  transform: scale(1.2);
 }
